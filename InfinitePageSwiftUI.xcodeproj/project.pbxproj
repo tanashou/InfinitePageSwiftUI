@@ -10,6 +10,7 @@
 		CC116E0628FD67DF00BA71E2 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC116E0528FD67DF00BA71E2 /* PageViewController.swift */; };
 		CC116E0A28FD718400BA71E2 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC116E0928FD718400BA71E2 /* PageView.swift */; };
 		CC116E0C28FD721000BA71E2 /* ExamplePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC116E0B28FD721000BA71E2 /* ExamplePage.swift */; };
+		CC9CF0EF290A7C7500580EB2 /* Modulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9CF0EE290A7C7500580EB2 /* Modulo.swift */; };
 		CCF64B3528FD60BA000770BE /* InfinitePageSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF64B3428FD60BA000770BE /* InfinitePageSwiftUIApp.swift */; };
 		CCF64B3728FD60BA000770BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF64B3628FD60BA000770BE /* ContentView.swift */; };
 		CCF64B3928FD60BE000770BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF64B3828FD60BE000770BE /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		CC116E0528FD67DF00BA71E2 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		CC116E0928FD718400BA71E2 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		CC116E0B28FD721000BA71E2 /* ExamplePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamplePage.swift; sourceTree = "<group>"; };
+		CC9CF0EE290A7C7500580EB2 /* Modulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modulo.swift; sourceTree = "<group>"; };
 		CCF64B3128FD60BA000770BE /* InfinitePageSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfinitePageSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF64B3428FD60BA000770BE /* InfinitePageSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitePageSwiftUIApp.swift; sourceTree = "<group>"; };
 		CCF64B3628FD60BA000770BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC9CF0ED290A7C6400580EB2 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				CC9CF0EE290A7C7500580EB2 /* Modulo.swift */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
 		CCF64B2828FD60BA000770BE = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		CCF64B3328FD60BA000770BE /* InfinitePageSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				CC9CF0ED290A7C6400580EB2 /* helper */,
 				CCF64B3428FD60BA000770BE /* InfinitePageSwiftUIApp.swift */,
 				CCF64B3628FD60BA000770BE /* ContentView.swift */,
 				CCF64B3828FD60BE000770BE /* Assets.xcassets */,
@@ -151,6 +162,7 @@
 				CC116E0628FD67DF00BA71E2 /* PageViewController.swift in Sources */,
 				CCF64B3728FD60BA000770BE /* ContentView.swift in Sources */,
 				CCF64B3528FD60BA000770BE /* InfinitePageSwiftUIApp.swift in Sources */,
+				CC9CF0EF290A7C7500580EB2 /* Modulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
