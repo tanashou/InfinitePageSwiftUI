@@ -19,7 +19,7 @@ struct ExamplePage: View {
     }
     
     
-    // To modify pageIndex from other view.
+    // To modify pageIndex from other file.
     class ViewModel: ObservableObject {
         @Published var pageIndex: Int
         

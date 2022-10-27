@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct PageView: View {
-    @State var currentPage: Int = 2
+    @State var currentPage: Int = 0
     var pages: [ExamplePage]
     
     var body: some View {
@@ -16,7 +16,7 @@ struct PageView: View {
             .onChange(of: currentPage) { [currentPage] newValue in
                 switch newValue - currentPage {
                 case 1:
-                    let updatingPageId = (newValue + 2) %% pages.count
+                    let updatingPageId = (newValue + 2) %% pages.count // Example for 5 pages. Change the number if defalt page number is not 5.
                     pages[updatingPageId].viewModel.updateIndex(to: newValue + 2)
                     
                 case -1:
@@ -24,7 +24,6 @@ struct PageView: View {
                     pages[updatingPageId].viewModel.updateIndex(to: newValue - 2)
                     
                 default:
-                    print("error")
                     break
                 }
             }
