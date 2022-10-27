@@ -27,7 +27,7 @@ struct ExamplePage: View {
             self.pageIndex = pageIndex
         }
         
-        public func update(to index: Int) {
+        public func updateIndex(to index: Int) {
             pageIndex = index
         }
     }
