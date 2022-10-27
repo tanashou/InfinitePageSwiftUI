@@ -67,14 +67,14 @@
 		CCF64B3328FD60BA000770BE /* InfinitePageSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				CC9CF0ED290A7C6400580EB2 /* helper */,
 				CCF64B3428FD60BA000770BE /* InfinitePageSwiftUIApp.swift */,
 				CCF64B3628FD60BA000770BE /* ContentView.swift */,
-				CCF64B3828FD60BE000770BE /* Assets.xcassets */,
-				CCF64B3A28FD60BE000770BE /* Preview Content */,
 				CC116E0528FD67DF00BA71E2 /* PageViewController.swift */,
 				CC116E0928FD718400BA71E2 /* PageView.swift */,
 				CC116E0B28FD721000BA71E2 /* ExamplePage.swift */,
+				CC9CF0ED290A7C6400580EB2 /* helper */,
+				CCF64B3828FD60BE000770BE /* Assets.xcassets */,
+				CCF64B3A28FD60BE000770BE /* Preview Content */,
 			);
 			path = InfinitePageSwiftUI;
 			sourceTree = "<group>";
